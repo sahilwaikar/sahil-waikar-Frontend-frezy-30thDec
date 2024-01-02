@@ -1,0 +1,95 @@
+body,
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body .container,
+* .container {
+    width: 80%;
+    margin-left: 10%;
+}
+
+body .container nav,
+* .container nav {
+    margin-top: 20px;
+    color: black;
+    display: inline-block;
+    width: 100%;
+}
+
+body .container nav .darkbtn,
+* .container nav .darkbtn {
+    float: right;
+}
+
+body .container section,
+* .container section {
+    display: flex;
+    flex-direction: column;
+}
+
+body .container section h1,
+* .container section h1 {
+    color: black;
+    margin: 20px 0;
+    font-size: 30px;
+}
+
+body .container section h4,
+* .container section h4 {
+    color: black;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+body .container section img,
+* .container section img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+body .container section p,
+* .container section p {
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+body.Dark,
+*.Dark {
+    background-color: black;
+}
+
+body.Dark .container,
+*.Dark .container {
+    width: 80%;
+}
+
+body.Dark .container nav,
+*.Dark .container nav {
+    color: white;
+    display: inline-block;
+}
+
+body.Dark .container nav .darkbtn,
+*.Dark .container nav .darkbtn {
+    float: right;
+}
+
+body.Dark .container section h1,
+*.Dark .container section h1 {
+    color: white;
+}
+
+body.Dark .container section h4,
+*.Dark .container section h4 {
+    color: white;
+}
+
+body.Dark .container section p,
+*.Dark .container section p {
+    color: white;
+}
